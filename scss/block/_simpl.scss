@@ -1,0 +1,53 @@
+.simpl_title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 125%;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+.simpl_block{
+    text-align: center;
+}
+
+.simpl_btn {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 13px;
+    color: #f3603c;
+    padding: 12px 32px;
+    border: none;
+    margin-top: 29px;
+    border-radius: 22px;
+    box-shadow: 0 15px 15px -10px #db5943;
+    background: #fff;
+}
+
+.simpl{
+    background-image: url(../img/bci.png);
+    padding: 91px 32px;
+}
+
+
+@media screen and (min-width: 780px) {
+
+    .simpl_block{
+        display: flex;
+        gap: 88px;
+    }
+
+    .simpl_title{
+        text-align: start;
+        width: 445px;
+    }
+}
+
+
+@media screen and (min-width: 1110px) {
+
+    .simpl_block{
+        display: flex;
+        justify-content: space-between;
+    }
+}
